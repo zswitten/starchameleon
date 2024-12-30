@@ -57,4 +57,4 @@ Again here, Sonnet 3.5 New stands out for being unusually unlikely to wrongly id
 
 ### Code/Data
 
-The code is here. (You might need to set the number of concurrent connections to 1 to reproduce.) The full list of completions and guesses is here. The analysis notebook is here.
+The code is [here](src/starchameleon.py). (You might need to set the number of concurrent connections to 1 to reproduce.) The full list of completions and guesses is [here](data/star_chameleon_results.json). The analysis notebook is [here](src/chameleon_analysis.ipynb).
