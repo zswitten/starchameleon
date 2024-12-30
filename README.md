@@ -37,21 +37,21 @@ I implemented Star Chameleon for Claudes 3.0-3.5.
 
 **Times Fooled Others/Star Chameleon**
 
-![][image1]The newer models did the best. Haiku 3.5’s strong showing surprised me.
+![image1](images/fooling.png)The newer models did the best. Haiku 3.5’s strong showing surprised me.
 
 **Correct Guesses/Perceptiveness**  
-**![][image2]**  
+![image2](images/guessing.png) 
 The 3.5 Sonnets did the best, followed by Opus and 3.0 Sonnet. Haiku 3.5 had surprisingly *weak* performance here.
 
 You might ask – are models unusually good at recognizing their own completions? Here’s a plot of how many times each model correctly recognized its own completions.
 
-![][image3]
+![image3](images/guessing_correct.png)
 
 Notably, Sonnet 3.5 New and Haiku 3.5, the same ones that performed well overall, performed *particularly* well at guessing their own completions, especially Sonnet 3.5 New. The same trend isn’t really visible for the other models.
 
 Here’s the same plot for incorrect guesses:
 
-![][image4]
+![image4](images/guessing_incorrect.png)
 
 Again here, Sonnet 3.5 New stands out for being unusually unlikely to wrongly identify its own completions as real. So it seems like it has the most “self-awareness” of its own style.
 
