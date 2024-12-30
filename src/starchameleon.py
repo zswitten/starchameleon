@@ -13,7 +13,7 @@ API_KEY = os.environ["ANTHROPIC_API_KEY"]
 client = anthropic.Anthropic(api_key=API_KEY)
 
 MAX_TOKENS = 4096
-CAPACITY_LIMIT = 30
+CAPACITY_LIMIT = 1  # Increase this if you have an API key that supports calling the model more times in parallel!
 
 # Global counters
 warning_counts = {}  # Tracks missing completion tags in continuations per model
